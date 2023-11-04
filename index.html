@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Diary</h1>
+    <button onclick="addRecord()">Add new record</button>
+    <button onclick="showRecords()">Show all records</button>
+    <button onclick="sortRecordsByWord()">Sort records by the word</button>
+    <button onclick="sortRecordsByWeekend()">Sort records by weekend</button>
+    <table id="recordsTable">
+        <tr>
+            <th></th>
+            <th>Date</th>
+            <th>Record</th>
+        </tr>
+    </table>
+    <script src="./script.js"></script>
+</body>
+
+</html>
